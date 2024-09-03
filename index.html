@@ -7,7 +7,10 @@
     <title>Andrii Polishchuk CV</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
 </head>
 
 <body>
@@ -15,10 +18,10 @@
     <h3 class="secondary">Senior Full-Stack Engineer (front end heavy)</h3>
 
     <main>
-        <div class="left-column">
-            <section>
+        <div class="row">
+            <section class="column">
                 <h2>Contacts</h2>
-                <ul style="list-style-type:none;">
+                <ul class="emoji-list">
                     <li>📍 Larnaca, Cyprus</li>
                     <li>📞 <a href="tel:+35797445682">+35797445682</a></li>
                     <li>📧 <a href="mailto:polishchuk91@gmail.com">polishchuk91@gmail.com</a></li>
@@ -28,138 +31,134 @@
                             rel="noopener noreferrer">linkedin.com/in/andrii-v-polishchuk</a></li>
                 </ul>
             </section>
-            <section>
-                <h2>Skills</h2>
-                <ul>
-                    <li>system design & architecture</li>
-                    <li>code quality & best practices</li>
-                    <li>performance optimization</li>
-                    <li>tech mentorship</li>
-                    <li>code reviews</li>
-                    <li>problem solving</li>
-                    <li>learning agility</li>
-                    <li>time management</li>
-                    <li>tasks prioritization</li>
-                </ul>
-            </section>
-            <section>
+            <section class="column">
                 <h2>Languages</h2>
-                <ul style="list-style-type:none;">
-                    <li>🇺🇦 Ukrainian - Native</li>
+                <ul class="emoji-list">
                     <li>🇬🇧 English - Fluent</li>
+                    <li>🇺🇦 Ukrainian - Native</li>
                 </ul>
             </section>
         </div>
 
-        <div class="right-column">
-            <section>
-                <h2>Summary</h2>
-                <ul>
-                    <li>10+ years of experience</li>
-                    <li>worked with various tech stacks</li>
-                    <li>tend to use simple and straightforward solutions</li>
-                    <li>proactive, suggesting improvements and alternative solutions</li>
-                    <li>constantly learn new stuff</li>
-                    <li>like to mentor teammates and share experience</li>
-                    <li>designed new systems from scratch</li>
-                    <li>refactored legacy codebases</li>
-                    <li>have a good expertise in React performance optimization</li>
-                    <li>designed and recorded Udemy course that teaches people "Thinking in React"</li>
-                </ul>
-            </section>
-            <section>
-                <h2>Work History</h2>
-                <ul>
-                    <li>
-                        <strong class="job-title">Senior Front-End Engineer</strong> <span class="secondary">@
-                            Imubit</span>
-                        <p>I am a lead front-end engineer on the project, responsible for mentoring team members,
-                            contributing
-                            to architecture and feature design, integrating third-party services, and developing
-                            core
-                            reusable
-                            components. I work closely with the team to ensure scalable, maintainable, and efficient
-                            solutions
-                            are delivered.</p>
-                        <p class="additional-info">🗓️ Dec 2022 - Present</p>
-                        <p class="additional-info">🛠️ Tech stack: TypeScript, React, Next, AWS</p>
-                    </li>
-                    <li>
-                        <strong class="job-title">Senior Front-End Engineer</strong> <span class="secondary">@
-                            BigID</span>
-                        <p>Led the development of a sophisticated Single Page Application utilizing a cutting-edge
-                            tech
-                            stack comprising React, TypeScript, and Material UI. As the sole front-end developer for
-                            this
-                            application, I played a crucial role in both its development and the provision of expert
-                            guidance to
-                            other teams on their projects. Furthermore, I spearheaded the creation of a unified design
-                            system,
-                            crafting a library of reusable React components that facilitated consistency and efficiency
-                            across
-                            multiple projects.</p>
-                        <p class="additional-info">🗓️ Sep 2021 - Nov 2022</p>
-                        <p class="additional-info">🛠️ Tech stack: TypeScript, React, Vite</p>
-                    </li>
-                    <li>
-                        <strong class="job-title">Senior Front-End Engineer</strong> <span class="secondary">@
-                            Trembit</span>
-                        <p>Led the front-end development of an advanced web-based video editor, architecting a robust
-                            platform
-                            that integrates features such as subtitle generation/editing, video trimming, and effects
-                            application. Focused on optimizing performance and efficiency, I implemented significant
-                            enhancements to manage the application's extensive data load seamlessly. My role also
-                            involved
-                            devising sophisticated algorithms to ensure precise synchronization of the subtitles
-                            timeline with
-                            video edits, contributing to an intuitive and user-friendly editing experience.</p>
-                        <p class="additional-info">🗓️ Feb 2021 - Aug 2021</p>
-                        <p class="additional-info">🛠️ Tech stack: TypeScript, React, Next, AWS</p>
-                    </li>
-                    <li>
-                        <strong class="job-title">Full-Stack Engineer</strong> <span class="secondary">@ Digitus Data
-                            LLC</span>
-                        <p>Developed a comprehensive application ecosystem, encompassing a serverless backend utilizing
-                            Firebase, an administrative web dashboard built with React, and a mobile application
-                            developed in
-                            React Native. My role was pivotal in architecting and implementing new features across all
-                            three
-                            system components, ensuring seamless integration and functionality. This project showcased
-                            my
-                            versatility in full-stack development, from serverless architecture to cross-platform app
-                            development, demonstrating a holistic approach to modern software solutions.</p>
-                        <p class="additional-info">🗓️ Sep 2019 - Aug 2020</p>
-                        <p class="additional-info">🛠️ Tech stack: Javascript, React, React Native, Redux, Firebase
-                            (GCP)</p>
-                    </li>
-                </ul>
-            </section>
-        </div>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>system design & architecture</li>
+                <li>code quality & best practices</li>
+                <li>performance optimization</li>
+                <li>tech mentorship</li>
+                <li>code reviews</li>
+                <li>problem solving</li>
+                <li>learning agility</li>
+                <li>time management</li>
+                <li>tasks prioritization</li>
+                <li>tech interviews</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Summary</h2>
+            <ul>
+                <li>10+ years of experience</li>
+                <li>worked with various tech stacks</li>
+                <li>tend to use simple and straightforward solutions</li>
+                <li>proactive, suggesting improvements and alternative solutions</li>
+                <li>constantly learn new stuff</li>
+                <li>like to mentor teammates and share experience</li>
+                <li>designed new systems from scratch</li>
+                <li>refactored legacy codebases</li>
+                <li>have a good expertise in React performance optimization</li>
+                <li>designed and recorded Udemy course that teaches people "Thinking in React"</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Recent Projects</h2>
+            <ul>
+                <li>
+                    <strong class="job-title">Senior Front-End Engineer</strong> <span class="secondary">@
+                        Imubit</span>
+                    <p>I am a lead front-end engineer on the project, responsible for mentoring team members,
+                        contributing
+                        to architecture and feature design, integrating third-party services, and developing
+                        core
+                        reusable
+                        components. I work closely with the team to ensure scalable, maintainable, and efficient
+                        solutions
+                        are delivered.</p>
+                    <p class="additional-info">🗓️ Dec 2022 - Present</p>
+                    <p class="additional-info">🛠️ Tech stack: TypeScript, React, Next, AWS</p>
+                </li>
+                <li>
+                    <strong class="job-title">Senior Front-End Engineer</strong> <span class="secondary">@
+                        BigID</span>
+                    <p>Led the development of a sophisticated Single Page Application utilizing a cutting-edge
+                        tech
+                        stack comprising React, TypeScript, and Material UI. As the sole front-end developer for
+                        this
+                        application, I played a crucial role in both its development and the provision of expert
+                        guidance to
+                        other teams on their projects. Furthermore, I spearheaded the creation of a unified design
+                        system,
+                        crafting a library of reusable React components that facilitated consistency and efficiency
+                        across
+                        multiple projects.</p>
+                    <p class="additional-info">🗓️ Sep 2021 - Nov 2022</p>
+                    <p class="additional-info">🛠️ Tech stack: TypeScript, React, Vite</p>
+                </li>
+                <li>
+                    <strong class="job-title">Senior Front-End Engineer</strong> <span class="secondary">@
+                        Trembit</span>
+                    <p>Led the front-end development of an advanced web-based video editor, architecting a robust
+                        platform
+                        that integrates features such as subtitle generation/editing, video trimming, and effects
+                        application. Focused on optimizing performance and efficiency, I implemented significant
+                        enhancements to manage the application's extensive data load seamlessly. My role also
+                        involved
+                        devising sophisticated algorithms to ensure precise synchronization of the subtitles
+                        timeline with
+                        video edits, contributing to an intuitive and user-friendly editing experience.</p>
+                    <p class="additional-info">🗓️ Feb 2021 - Aug 2021</p>
+                    <p class="additional-info">🛠️ Tech stack: TypeScript, React, Next, AWS</p>
+                </li>
+                <li>
+                    <strong class="job-title">Full-Stack Engineer</strong> <span class="secondary">@ Digitus Data
+                        LLC</span>
+                    <p>Developed a comprehensive application ecosystem, encompassing a serverless backend utilizing
+                        Firebase, an administrative web dashboard built with React, and a mobile application
+                        developed in
+                        React Native. My role was pivotal in architecting and implementing new features across all
+                        three
+                        system components, ensuring seamless integration and functionality. This project showcased
+                        my
+                        versatility in full-stack development, from serverless architecture to cross-platform app
+                        development, demonstrating a holistic approach to modern software solutions.</p>
+                    <p class="additional-info">🗓️ Sep 2019 - Aug 2020</p>
+                    <p class="additional-info">🛠️ Tech stack: Javascript, React, React Native, Redux, Firebase
+                        (GCP)</p>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong class="job-title">Master's degree in Computer Science</strong>
+                    <p>
+                        National Technical University of Ukraine 'Kyiv Polytechnic Institute'<br />
+                        Faculty of Applied Mathematics
+                    </p>
+                    <p>🗓️ Sep 2008 - May 2014</p>
+                </li>
+            </ul>
+        </section>
     </main>
 
-    <button id="exportPdf" class="export-button">💾 Save as PDF</button>
+    <button id="printPage">Print / Save</button>
 
     <script>
-        document.getElementById('exportPdf').addEventListener('click', function () {
-            const element = document.body;
-            const options = {
-                filename: 'Andrii_Polishchuk_CV.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 2 },
-                jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
-                css: `
-                    body { font-size: 12px; }
-                    h1 { font-size: 18px; }
-                    h2 { font-size: 14px; }
-                    h3 { font-size: 12px; }
-                    main { width: 100%; }
-                    .left-column, .right-column { padding: 0 12px; }
-                    ul { padding-left: 0; }
-                    .job-title { font-size: 14px; }
-                    .additional-info { font-size: 10px; }
-                `
-            };
-            html2pdf().from(element).set(options).save();
+        document.getElementById('printPage').addEventListener('click', function () {
+            window.print();
         });
     </script>
 </body>
