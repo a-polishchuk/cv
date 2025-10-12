@@ -5,8 +5,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto Mono', Arial, sans-serif;
-    --text-secondary: #888888;
     line-height: 1.6;
+
+    --text-secondary: #888888;
 }
 
 header {
@@ -20,7 +21,6 @@ h1 {
 }
 
 h2 {
-    text-decoration: underline;
     margin-top: 24px;
     margin-bottom: 12px;
 }
@@ -83,13 +83,22 @@ a {
     margin-bottom: 24px;
 }
 
-.emoji-list {
+.labeled-list {
     list-style-type: none;
-    padding-left: 1em;
+    padding-left: 0;
 }
 
-.emoji-list li {
-    margin-bottom: 4px;
+.labeled-list li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: baseline;
+}
+
+.label {
+    min-width: 120px;
+    color: var(--text-secondary);
+    font-weight: 600;
+    flex-shrink: 0;
 }
 
 button {
