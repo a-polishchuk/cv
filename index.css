@@ -4,15 +4,16 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
     line-height: 1.6;
 
     --text-secondary: #888888;
 }
 
 header {
+    width: 80%;
+    max-width: 1000px;
     text-align: center;
-    margin-top: 20px;
 }
 
 h1 {
@@ -33,6 +34,39 @@ h3.skill-category {
     font-weight: 600;
 }
 
+.value-prop {
+    margin-top: 4px;
+    margin-bottom: 12px;
+}
+
+.cta-group {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cta {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.cta:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.cta-primary {
+    background-color: #000;
+    color: #fff;
+}
+
 main {
     width: 80%;
     max-width: 1000px;
@@ -43,6 +77,10 @@ main {
 
 a {
     color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .row {
@@ -60,6 +98,7 @@ a {
 
 .job-title {
     font-size: 1.2em;
+    text-align: start;
 }
 
 .job-header {
@@ -109,7 +148,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Roboto Mono', Arial, sans-serif;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
     font-size: 14px;
     transition: all 0.3s linear;
     min-width: 120px;
@@ -154,5 +193,9 @@ button:hover {
     .experience-list>li {
         margin-bottom: 16px;
         page-break-inside: avoid;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
     }
 }

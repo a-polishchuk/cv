@@ -12,6 +12,15 @@
             content="Full-Stack Engineer, Senior Software Engineer, React, TypeScript, Next.js, Frontend Developer, Web Development"
         />
         <title>Andrii Polishchuk - Senior Full-Stack Engineer CV</title>
+        <meta property="og:title" content="Andrii Polishchuk — Senior Full-Stack Engineer" />
+        <meta
+            property="og:description"
+            content="React/Next.js expert. Performance, DX, delivery."
+        />
+        <meta property="og:type" content="profile" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
             href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
             rel="stylesheet"
@@ -63,7 +72,7 @@
     <body>
         <header>
             <h1>Andrii Polishchuk</h1>
-            <p class="secondary job-title">Senior Full-Stack Engineer (Front End Heavy)</p>
+            <h3>Senior Full-Stack Engineer, Frontend-leaning</h3>
         </header>
 
         <main>
@@ -123,11 +132,32 @@
                 </ul>
             </section>
 
-            <section aria-label="Core Skills">
-                <h2>Core Competencies</h2>
+            <section aria-label="Skills">
+                <h2>Skills</h2>
                 <div class="row">
                     <div class="column">
-                        <h3 class="skill-category">Technical</h3>
+                        <h3 class="skill-category">Frontend</h3>
+                        <ul>
+                            <li>TypeScript / JavaScript</li>
+                            <li>React / Next.js / TanStack Query</li>
+                            <li>CSS Modules / Tailwind</li>
+                            <li>Vite / Webpack</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3 class="skill-category">Backend & Cloud</h3>
+                        <ul>
+                            <li>Node.js / NestJS</li>
+                            <li>Go</li>
+                            <li>AWS (Lambda, S3, DynamoDB, etc.)</li>
+                            <li>Firebase (GCP)</li>
+                            <li>Java / C#</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <h3 class="skill-category">Architecture & Performance</h3>
                         <ul>
                             <li>System design & architecture</li>
                             <li>Performance optimization</li>
@@ -142,31 +172,6 @@
                             <li>Technical interviews</li>
                             <li>Problem solving</li>
                             <li>Task prioritization</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section aria-label="Technical Skills">
-                <h2>Technologies</h2>
-                <div class="row">
-                    <div class="column">
-                        <h3 class="skill-category">Frontend</h3>
-                        <ul>
-                            <li>TypeScript / JavaScript</li>
-                            <li>React / Next.js / TanStack</li>
-                            <li>CSS Modules / Tailwind</li>
-                            <li>Vite / Webpack</li>
-                        </ul>
-                    </div>
-                    <div class="column">
-                        <h3 class="skill-category">Backend & Cloud</h3>
-                        <ul>
-                            <li>Node.js / Nest.js</li>
-                            <li>Go</li>
-                            <li>AWS (Lambda, S3, Media Converter)</li>
-                            <li>Firebase (GCP)</li>
-                            <li>Java / C#</li>
                         </ul>
                     </div>
                 </div>
@@ -194,12 +199,17 @@
                             <time datetime="2022-12">December 2022</time>
                             - Present
                         </p>
-                        <p>
-                            Lead front-end engineer responsible for mentoring team members,
-                            contributing to architecture and feature design, integrating third-party
-                            services, and developing core reusable components. Ensure delivery of
-                            scalable, maintainable, and efficient solutions.
-                        </p>
+                        <ul class="achievement-list">
+                            <li>
+                                Led frontend architecture and reusable component platform to
+                                accelerate delivery
+                            </li>
+                            <li>Mentored engineers and improved code quality and reviews</li>
+                            <li>
+                                Integrated third-party services and ensured scalable, maintainable
+                                solutions
+                            </li>
+                        </ul>
                         <p class="tech-stack">
                             <strong>Technologies:</strong>
                             TypeScript, React, Next.js, Go, AWS
@@ -225,13 +235,17 @@
                             -
                             <time datetime="2022-11">November 2022</time>
                         </p>
-                        <p>
-                            Led development of sophisticated Single Page Application as sole
-                            front-end developer. Provided expert guidance to other teams.
-                            Spearheaded creation of unified design system with reusable React
-                            component library, ensuring consistency and efficiency across multiple
-                            projects.
-                        </p>
+                        <ul class="achievement-list">
+                            <li>
+                                Sole frontend owner of complex SPA; shipped features and guided
+                                other teams
+                            </li>
+                            <li>
+                                Created design system and reusable React components for speed and
+                                consistency
+                            </li>
+                            <li>Improved build times and developer experience across projects</li>
+                        </ul>
                         <p class="tech-stack">
                             <strong>Technologies:</strong>
                             TypeScript, React, Vite, Material UI, Node.js
@@ -253,16 +267,15 @@
                             </span>
                         </div>
                         <p class="date-range">
-                            <time datetime="2020-02">August 2019</time>
+                            <time datetime="2019-08">August 2019</time>
                             -
                             <time datetime="2020-08">August 2020</time>
                         </p>
-                        <p>
-                            Led front-end development of advanced web-based video editor with
-                            subtitle generation/editing, video trimming, and effects. Implemented
-                            performance enhancements to manage extensive data loads. Developed
-                            algorithms for precise subtitle-video timeline synchronization.
-                        </p>
+                        <ul class="achievement-list">
+                            <li>Built web video editor with subtitles, trimming, and effects</li>
+                            <li>Optimized performance for large media and caption datasets</li>
+                            <li>Implemented precise subtitle–video timeline synchronization</li>
+                        </ul>
                         <p class="tech-stack">
                             <strong>Technologies:</strong>
                             TypeScript, React, Next.js, Nest.js, AWS (Lambda, S3, Media Converter)
@@ -286,15 +299,15 @@
                         <p class="date-range">
                             <time datetime="2018-09">September 2018</time>
                             -
-                            <time datetime="2020-02">August 2019</time>
+                            <time datetime="2019-08">August 2019</time>
                         </p>
-                        <p>
-                            Developed comprehensive application ecosystem with serverless Firebase
-                            backend, React admin dashboard, and React Native mobile app. Architected
-                            and implemented features across all components, ensuring seamless
-                            integration. Demonstrated full-stack versatility from serverless
-                            architecture to cross-platform mobile development.
-                        </p>
+                        <ul class="achievement-list">
+                            <li>
+                                Architected serverless Firebase backend and React admin dashboard
+                            </li>
+                            <li>Developed React Native mobile app with seamless integration</li>
+                            <li>Delivered features end-to-end across backend, web, and mobile</li>
+                        </ul>
                         <p class="tech-stack">
                             <strong>Technologies:</strong>
                             JavaScript, React, React Native, Redux, Firebase (GCP)
@@ -338,6 +351,10 @@
 
         <script>
             document.getElementById("printPage").addEventListener("click", function () {
+                window.print();
+            });
+            document.getElementById("downloadPdf").addEventListener("click", function (e) {
+                e.preventDefault();
                 window.print();
             });
         </script>
