@@ -6,10 +6,31 @@ body {
     padding: 0;
     font-family: 'Roboto Mono', Arial, sans-serif;
     --text-secondary: #888888;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-top: 20px;
 }
 
 h1 {
-    margin-bottom: 0;
+    margin-bottom: 8px;
+    font-size: 2.5em;
+}
+
+h2 {
+    text-decoration: underline;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+h3.skill-category {
+    font-size: 1.1em;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    font-weight: 600;
 }
 
 main {
@@ -18,10 +39,6 @@ main {
     padding-bottom: 48px;
     display: flex;
     flex-direction: column;
-}
-
-h2 {
-    text-decoration: underline;
 }
 
 a {
@@ -45,13 +62,34 @@ a {
     font-size: 1.2em;
 }
 
-.additional-info {
+.job-header {
+    margin-bottom: 4px;
+}
+
+.date-range {
+    font-size: 0.95em;
+    color: var(--text-secondary);
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+.tech-stack {
     font-size: 0.9em;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.experience-list>li {
+    margin-bottom: 24px;
 }
 
 .emoji-list {
     list-style-type: none;
     padding-left: 1em;
+}
+
+.emoji-list li {
+    margin-bottom: 4px;
 }
 
 button {
@@ -79,7 +117,19 @@ button:hover {
 
 @media print {
     body {
-        font-size: 12px;
+        font-size: 11px;
+    }
+
+    header {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        margin-top: 16px;
     }
 
     main {
@@ -87,7 +137,13 @@ button:hover {
         max-width: unset;
     }
 
+    footer,
     button {
         display: none;
+    }
+
+    .experience-list>li {
+        margin-bottom: 16px;
+        page-break-inside: avoid;
     }
 }
